@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(240, 219, 217);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    width: 60%;
+
+    margin: auto;
+    position: relative;
+   
+}
+
+.header{
+    width: 100% ;
+    height: 350%;
+    background-image: url("../img/images.jpg");
+    background-size: cover;
+    text-align: center;
+    
+}
+
+.gambar{
+    width: 100px;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+
+.header h1{
+    color: springgreen;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav {
+    background-color: mediumturquoise;
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+
+}
+
+.nav li {
+    display: inline-block;
+    text-align: center;
+
+}
+
+.nav li a{
+    background-color: orange;
+    text-decoration: none;
+   padding:4px;
+   margin-right: 5px;
+}
+
+.nav li a:hover{
+    background-color: palegreen;
+    color:fuchsia;
+}
+
+.main{
+    background-color: rgb(165, 233, 165);
+    padding: 100PX;
+}
+
+.main img{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+.footer {
+    height: 40px;
+    background-color: hotpink;
+    text-align: center;
+    color: rgb(15, 15, 15);
+    padding: 15px;
+    border-radius: 0 0 30px 30px;
+}
+
+.box_login {
+    width: 400px;
+    background-color:white ;
+    border-radius: 30px;
+    margin: auto;
+    padding:15px ;
+    text-align: center;
+
+}
+
+.gambar {
+    width: 150px;
+    border-radius: 50px;
+    margin-top: 60px;
+}
